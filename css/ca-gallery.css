@@ -1,4 +1,4 @@
-header body {
+body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -42,7 +42,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 ::-moz-selection {
@@ -177,7 +177,7 @@ body {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgb(255, 253, 253, 0.4);
+    background-color: rgb(255, 253, 253, 0.9);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -624,7 +624,7 @@ footer ul.quicklinks {
   text-transform: uppercase;
 }
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 ul.social-buttons li a {
   font-size: 20px;
