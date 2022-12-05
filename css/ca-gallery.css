@@ -1,4 +1,4 @@
-body {
+header body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -186,7 +186,7 @@ body {
 }
 header.masthead {
   text-align: center;
-  color: white;
+  color: rgb(66, 176, 182);
   background-image: url("../img/desk.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -206,6 +206,10 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(247, 251, 251, 0.5);
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
 }
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
