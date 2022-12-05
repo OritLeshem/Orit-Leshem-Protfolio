@@ -1,7 +1,7 @@
 console.log('Starting up');
 
 function initPage() {
-  // renderProjs()
+  renderProjs()
 }
 function renderProjs() {
   console.log('render proj')
