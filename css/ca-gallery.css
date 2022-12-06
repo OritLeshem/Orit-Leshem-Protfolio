@@ -116,7 +116,7 @@ body {
 .offcanvas-aside-open {
   right: 0;
 }
-
+/* ///// /////////////////////////////////////////*/
 #mainNav {
   background-color: #222222;
   z-index: 5;
@@ -142,6 +142,7 @@ body {
 #mainNav .navbar-brand:hover {
   color: rgb(66, 176, 182);
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
@@ -159,11 +160,14 @@ body {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
+
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(255, 253, 253, 0.9);
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -184,6 +188,8 @@ body {
     padding: 12px 0;
   }
 }
+/* ///// /////////////////////////////////////////*/
+
 header.masthead {
   text-align: center;
   color: rgb(66, 176, 182);
